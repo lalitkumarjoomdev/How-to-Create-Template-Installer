@@ -17,7 +17,7 @@
 [img-2]: images/img-2.png "Skip data for Tables "
 ![img-2]
 
-##### 10. Change languagesname
+##### 10. Change languages name
 
 [img-3]: images/img-3.png "Skip data for Tables "
 ![img-3]
