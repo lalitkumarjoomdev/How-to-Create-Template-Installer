@@ -39,7 +39,7 @@
 [img-5]: images/img-5.png "Skip data for Tables "
 ![img-5]
 
-# Template Only Without FrameWork
+# Template Only With FrameWork
 
 ##### 1. Download latest astroid-framework+template package eg. 2.3.0
 ##### 2. First Change The Folder name
