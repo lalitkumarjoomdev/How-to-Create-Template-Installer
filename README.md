@@ -1,136 +1,86 @@
 # Template Only Without FrameWork
 
-1. Step 1: Download Latest release of astroid template (Only Template) eg. 2.3.0
-2. Step 2: Modify Template name and Files Name
+##### 1. Download Latest release of astroid template (Only Template) eg. 2.3.0
+##### 2. Modify Template name and Files Name (Main folder name & SCSS > Zero TO SCSS > kidzone)
 
-[image1]: images/img-1.jpg "Skip data for Tables "
-![image1]
+[img-1]: images/img-1.png "Skip data for Tables "
+![img-1]
 
-## Note:
-Debug should be disabled in the astroid plugin after all CSS work done.
+##### 3. Open templateDetails.xml File and change the following
+##### 4. Change- Name
+##### 5. Change- Created Date
+##### 6. Change- Copyright Year
+##### 7. Change- Version
+##### 8. Remove- Update Server Code
+##### 9. Remove- Update Server Code
 
-## 01 Hits 0
-update prefix_content set hits = 0
+[img-2]: images/img-2.png "Skip data for Tables "
+![img-2]
 
-## 02 Skip data for Tables 
-1. _action_logs
-2. _ucm_history
-3. _users
-4. _user_usergroup_map
-5. _acym_configuration
+##### 10. Change languagesname
 
-[image1]: images/image1.jpg "Skip data for Tables "
-![image1]
+[img-3]: images/img-3.png "Skip data for Tables "
+![img-3]
 
-## 03 Check the options
+##### 11. Open README.md File and change the template name
 
-1. IF NOT EXISTS (less efficient as indexes will be generated during table creation)
-2. Truncate table before insert
+[img-6]: images/img-6.png "Skip data for Tables "
+![img-6]
 
-[image2]: images/image2.jpg "Check the options"
-![image2]
+##### 12. Open language > en-GB Folder
+##### 13. Change- files name
 
+[img-4]: images/img-4.png "Skip data for Tables "
+![img-4]
 
-## 04 - First and last line fix.
-**First Line**
-```
-SET FOREIGN_KEY_CHECKS=0;
-SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
-```
+##### 14. Open en-GB.tpl_jd_kidzone.ini file
+##### 15. Change- Template Name
 
-**Last Line**
-```
-SET FOREIGN_KEY_CHECKS=1;
-```
+[img-5]: images/img-5.png "Skip data for Tables "
+![img-5]
 
-[image3]: images/image3.jpg "First and last line fix"
-![image3]
+# Template Only Without FrameWork
 
+##### 1. Download latest astroid-framework+template package eg. 2.3.0
+##### 2. First Change The Folder name
 
-## 05 Update User ID
+[img-7]: images/img-7.png "Skip data for Tables "
+![img-7]
 
-Find the below code in database.php file.
-```
-'#__user_notes'      => array('created_user_id', 'modified_user_id'),
-```
+##### 3. Open the Folder and change pkg_.php file name & pkg_astroid.xml file name
 
-And add For JD Builder.
-```
-'#__jdbuilder_pages'  => array('created_by', 'modified_by'),
-```
+[img-8]: images/img-8.png "Skip data for Tables "
+![img-8]
 
-And add For TZ Portfolio
-```
-'#__tz_portfolio_plus_categories'      => array('created_user_id', 'modified_user_id'),
-'#__tz_portfolio_plus_content'      => array('created_by', 'modified_by'),
-```
+##### 4. Open the pkg_example.php file and change the branding logo and tag line
 
-**Note:** You have to 
+[img-9]: images/img-9.png "Skip data for Tables "
+![img-9]
 
-**Path:** installation/model/database.php
+##### 5. Open the pkg_example.xml file and change the following
 
-[image4]: images/image4.jpg "Update User ID"
-![image4]
+[img-10]: images/img-10.png "Skip data for Tables "
+![img-10]
 
-## 06 Rename the Prefix name with (#_)
+##### 1. Step 2: Open the astroid Folder
 
-**E.g.**
-Prefix Name = ``` ncwdf ```
-Prefix with Table Name = ```ncwdf_acymailing_action```
-After Change = ``` #__acymailing_action ```
+[img-11]: images/img-11.png "Skip data for Tables "
+![img-11]
 
-## 07 Change the File Name and save and delete the files
-* Change the file with **sample_templatedata.sql**
-* Save in installation\sql\mysql folder
-* Delete all .sql files expected **joomla.sql** and **sample_templatedata.sql**
+##### 2. Rplace the default astroid-template-zero with created template only
 
-## 08 Changes in language file
+[img-12]: images/img-12.png "Skip data for Tables "
+![img-12]
 
-```
-INSTL_SAMPLE_TEMPLATEDATA_SET="JD Restaurant Sample Data"
-INSTL_SAMPLE_TEMPLATEDATA_SET_DESC="JD Restaurant Sample Data"
-```
-**Path:** \installation\language\en-GB\en-GB.ini
+##### 3. Open the astroid Folder in Template
 
-**Note:** Replace JD Restaurant with Current Template Name.
+[img-13]: images/img-13.png "Skip data for Tables "
+![img-13]
 
-## 09 Add Default value in summary.xml file
-Add the default value in **sample_file** field set.
-```
-default="sample_templatedata.sql"
-```
-[image5]: images/image5.jpg "Update Default Value"
-![image5]
+##### 4. Export here Template layout JSON file open the jSON file and remove strings from this file and change TEMPLATE_NAME then close this file and rename ith default.json and remov ethe old json file
 
-**Path:** \installation\model\forms
+[img-14]: images/img-14.png "Skip data for Tables "
+![img-14]
 
-## 10 Add max_execution_time in index.php file
-Add ```ini_set('max_execution_time', 300);``` in index.php file
-[image6]: images/image6.jpg "Execution time"
-![image6]
-**Path:** installation/index.php
+## Template Installer Ready with Astroid Framework
 
-## 11 Install Themeing
-* Rename **joomla.png** to **logo.png**
-* Add the following code in index.php file below the second **<hr />** tag and change the coloring according to theme.
-
-```
-<style>
-			.header {background: #fff; border: 0;}
-         .btn-primary, .step.active span { background: #002d87;border-color: transparent; }
-			.btn-primary:hover ,.btn-primary:focus { background: #002d87;}
-         .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {color: #002d87;}
-			.links-holder{text-align: center;}.links-holder ul {list-style: none;}.links-holder ul li {display: inline-block;}</style>
-			<div class="links-holder">
-				<ul>
-				<li><a href="https://docs.joomdev.com" target="_blank">Documentation</a></li>
-				<li> | </li>
-				<li><a href="https://www.joomdev.com/forum" target="_blank">Forum</a></li>
-				</ul>
-			</div>
-			<div style="text-align:center;margin:15px 0;"><a href="https://www.joomdev.com/" target="_blank"><img style="width:200px;" src="<?php echo $this->baseurl; ?>/template/images/joomdev-logo.png"></a></div>
-```
-* Save **joomdev-logo.png**(Copy from old installer) and **logo.png** (Theme Logo) in **images** older
-
-**Path:** installation\template\
