@@ -6,6 +6,17 @@
 [img-1]: images/img-1.png "Skip data for Tables "
 ![img-1]
 
+3. Open templateDetails.xml File and change the following
+4. Change- Name
+5. Change- Created Date
+6. Change- Copyright Year
+7. Change- Version
+8. Remove- Update Server Code
+9. Remove- Update Server Code
+
+[img-2]: images/img-2.png "Skip data for Tables "
+![img-2]
+
 ## Note:
 Debug should be disabled in the astroid plugin after all CSS work done.
 
