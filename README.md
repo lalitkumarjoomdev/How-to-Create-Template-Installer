@@ -1,4 +1,10 @@
-# Steps
+# Template Only Without FrameWork
+
+1. Step 1: Download Latest release of astroid template (Only Template) eg. 2.3.0
+2. Step 2: Modify Template name and Files Name
+
+[image1]: images/img-1.jpg "Skip data for Tables "
+![image1]
 
 ## Note:
 Debug should be disabled in the astroid plugin after all CSS work done.
