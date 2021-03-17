@@ -17,6 +17,15 @@
 [img-2]: images/img-2.png "Skip data for Tables "
 ![img-2]
 
+10. Change languagesname
+
+[img-3]: images/img-3.png "Skip data for Tables "
+![img-3]
+
+11. Open README.md File and change the template name
+[img-6]: images/img-6.png "Skip data for Tables "
+![img-6]
+
 ## Note:
 Debug should be disabled in the astroid plugin after all CSS work done.
 
