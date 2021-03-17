@@ -3,7 +3,7 @@
 1. Step 1: Download Latest release of astroid template (Only Template) eg. 2.3.0
 2. Step 2: Modify Template name and Files Name
 
-[img-1]: images/img-1.jpg "Skip data for Tables "
+[img-1]: images/img-1.png "Skip data for Tables "
 ![img-1]
 
 ## Note:
