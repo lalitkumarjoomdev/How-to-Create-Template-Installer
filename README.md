@@ -82,5 +82,5 @@
 [img-14]: images/img-14.png "Skip data for Tables "
 ![img-14]
 
-##Template Installer Ready with Astroid Framework
+## Template Installer Ready with Astroid Framework
 
