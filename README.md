@@ -30,9 +30,6 @@
 12. Open language > en-GB Folder
 13. Change- files name
 
-[img-5]: images/img-5.png "Skip data for Tables "
-![img-5]
-
 [img-4]: images/img-4.png "Skip data for Tables "
 ![img-4]
 
