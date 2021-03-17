@@ -27,6 +27,18 @@
 [img-6]: images/img-6.png "Skip data for Tables "
 ![img-6]
 
+12. Open language > en-GB Folder
+13. Change- files name
+
+[img-5]: images/img-5.png "Skip data for Tables "
+![img-5]
+
+[img-4]: images/img-4.png "Skip data for Tables "
+![img-4]
+
+14. Open en-GB.tpl_jd_kidzone.ini file
+15. Change- Template Name
+
 ## Note:
 Debug should be disabled in the astroid plugin after all CSS work done.
 
