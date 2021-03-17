@@ -1,18 +1,18 @@
 # Template Only Without FrameWork
 
-1. Step 1: Download Latest release of astroid template (Only Template) eg. 2.3.0
-2. Step 2: Modify Template name and Files Name (Main folder name & SCSS > Zero TO SCSS > kidzone)
+##### 1. Download Latest release of astroid template (Only Template) eg. 2.3.0
+##### 2. Modify Template name and Files Name (Main folder name & SCSS > Zero TO SCSS > kidzone)
 
 [img-1]: images/img-1.png "Skip data for Tables "
 ![img-1]
 
-3. Open templateDetails.xml File and change the following
-4. Change- Name
-5. Change- Created Date
-6. Change- Copyright Year
-7. Change- Version
-8. Remove- Update Server Code
-9. Remove- Update Server Code
+##### 3. Open templateDetails.xml File and change the following
+##### 4. Change- Name
+##### 5. Change- Created Date
+##### 6. Change- Copyright Year
+##### 7. Change- Version
+##### 8. Remove- Update Server Code
+##### 9. Remove- Update Server Code
 
 [img-2]: images/img-2.png "Skip data for Tables "
 ![img-2]
@@ -41,7 +41,7 @@
 
 # Template Only Without FrameWork
 
-1. Step 1: Download latest astroid-framework+template package eg. 2.3.0
+1. Download latest astroid-framework+template package eg. 2.3.0
 2. First Change The Folder name
 
 [img-7]: images/img-7.png "Skip data for Tables "
