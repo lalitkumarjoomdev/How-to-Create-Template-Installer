@@ -23,6 +23,7 @@
 ![img-3]
 
 11. Open README.md File and change the template name
+
 [img-6]: images/img-6.png "Skip data for Tables "
 ![img-6]
 
