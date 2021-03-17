@@ -12,7 +12,7 @@
 ##### 6. Change- Copyright Year
 ##### 7. Change- Version
 ##### 8. Remove- Update Server Code
-##### 9. Remove- Update Server Code
+##### 9. Change the template name in Update Server Code
 
 [img-2]: images/img-2.png "Skip data for Tables "
 ![img-2]
