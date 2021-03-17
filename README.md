@@ -1,7 +1,7 @@
 # Template Only Without FrameWork
 
 1. Step 1: Download Latest release of astroid template (Only Template) eg. 2.3.0
-2. Step 2: Modify Template name and Files Name
+2. Step 2: Modify Template name and Files Name (Main folder name & SCSS > Zero TO SCSS > kidzone)
 
 [img-1]: images/img-1.png "Skip data for Tables "
 ![img-1]
